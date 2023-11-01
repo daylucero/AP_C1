@@ -1,0 +1,53 @@
+body {
+    background-image: url('https://images.pexels.com/photos/15849305/pexels-photo-15849305/free-photo-of-azul-oscuro-degradado-fondo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    padding: 2%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 3%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto; 
+}
+.form-group-inline {
+    display: flex;
+}
+
+.form-group {
+    margin-right: 20px;
+}
+.form-group {
+    margin-bottom: 2px;
+}
+
+label {
+    color: #333;
+    font-weight: bold;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
